@@ -1,0 +1,46 @@
+# This file is a template, and might need editing before it works on your project.
+variables:
+  EAGLE_NAME: "hier_den_namen_eintragen"
+
+.job_template: &job_definition
+  stage: deploy
+  tags:
+    - eagle
+  artifacts:
+    name: "${CI_PROJECT_NAME}_${CI_COMMIT_REF_SLUG}_${CI_COMMIT_SHA:0:8}"
+    when: always
+    paths:
+    - pdfs/*
+    - renders/*
+    
+.job_templ_nomr: &job_def_normal
+  <<: *job_definition
+  script: 
+    - "eagle-runner -pbrs $EAGLE_NAME"
+    
+.job_templ_hires: &job_def_hires
+  <<: *job_definition
+  script: 
+    - "eagle-runner -pbrq $EAGLE_NAME"
+  tags: 
+    - eagle
+    - hires
+    
+EAGLE Doku default:
+  <<: *job_def_normal
+  
+EAGLE Doku hires:
+  <<: *job_def_hires
+  only:
+    - tags
+    - triggers
+
+EAGLE Doku manual:
+  <<: *job_def_hires
+  when: manual
+  except:
+    - tags
+    - triggers
+
+after_script:
+  - "povray-cleanup"
