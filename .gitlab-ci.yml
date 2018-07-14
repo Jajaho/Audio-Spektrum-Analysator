@@ -1,6 +1,6 @@
 # This file is a template, and might need editing before it works on your project.
 variables:
-  EAGLE_NAME: "hier_den_namen_eintragen"
+  EAGLE_NAME: "Audio Spektrum Analyser"
 
 .job_template: &job_definition
   stage: deploy
