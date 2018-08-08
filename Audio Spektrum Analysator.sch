@@ -21277,95 +21277,8 @@ Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
 
 &lt;author&gt;Created by Bodenseefische&lt;/author&gt;</description>
 <packages>
-<package name="MS-611A">
-<pad name="1" x="-2.54" y="0" drill="0.8" shape="long" rot="R270"/>
-<pad name="3" x="2.54" y="0" drill="0.8" shape="long" rot="R270"/>
-<wire x1="-4.5" y1="3" x2="-3.5" y2="3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="3" x2="3.5" y2="3" width="0.127" layer="21"/>
-<wire x1="3.5" y1="3" x2="4.5" y2="3" width="0.127" layer="21"/>
-<wire x1="4.5" y1="3" x2="4.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="2.5" x2="4.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-2.5" x2="4.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-3" x2="3.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-3" x2="-3.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-3" x2="-4.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="-3" x2="-4.5" y2="-2.5" width="0.127" layer="21"/>
-<pad name="2" x="0" y="0" drill="0.8" shape="long" rot="R270"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="2.1" width="0.127" layer="21"/>
-<circle x="0" y="0" radius="1.8" width="0.127" layer="21"/>
-<circle x="1.7" y="0" radius="1.5" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="-2.5" x2="-4.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="2.5" x2="-4.5" y2="3" width="0.127" layer="21"/>
-<wire x1="1.7" y1="1.5" x2="0" y2="1.1" width="0.127" layer="21"/>
-<wire x1="1.7" y1="-1.5" x2="0" y2="-1.1" width="0.127" layer="21"/>
-<wire x1="4.5" y1="2.5" x2="3.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="2.5" x2="3.5" y2="3" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-2.5" x2="3.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-2.5" x2="3.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.5" x2="-4.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-2.5" x2="-4.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.5" x2="-3.5" y2="3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-2.5" x2="-3.5" y2="-3" width="0.127" layer="21"/>
-<text x="-4.318" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.191" y="-4.826" size="1.27" layer="25" ratio="10">&gt;VALUE</text>
-</package>
-<package name="MS-611A-H">
-<pad name="1" x="-2.54" y="0" drill="1" shape="long" rot="R270"/>
-<pad name="3" x="2.54" y="0" drill="1" shape="long" rot="R270"/>
-<wire x1="-4.5" y1="3" x2="-3.5" y2="3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="3" x2="3.5" y2="3" width="0.127" layer="21"/>
-<wire x1="3.5" y1="3" x2="4.5" y2="3" width="0.127" layer="21"/>
-<wire x1="4.5" y1="3" x2="4.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="2.5" x2="4.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-2.5" x2="4.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-3" x2="3.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-3" x2="-3.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-3" x2="-4.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="-3" x2="-4.5" y2="-2.5" width="0.127" layer="21"/>
-<pad name="2" x="0" y="0" drill="1" shape="long" rot="R270"/>
-<circle x="0" y="0" radius="3" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="2.1" width="0.127" layer="51"/>
-<circle x="0" y="0" radius="1.8" width="0.127" layer="51"/>
-<circle x="1.7" y="0" radius="1.5" width="0.127" layer="51"/>
-<wire x1="-4.5" y1="-2.5" x2="-4.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-4.5" y1="2.5" x2="-4.5" y2="3" width="0.127" layer="21"/>
-<wire x1="1.7" y1="1.5" x2="0" y2="1.1" width="0.127" layer="51"/>
-<wire x1="1.7" y1="-1.5" x2="0" y2="-1.1" width="0.127" layer="51"/>
-<wire x1="4.5" y1="2.5" x2="3.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="2.5" x2="3.5" y2="3" width="0.127" layer="21"/>
-<wire x1="4.5" y1="-2.5" x2="3.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="3.5" y1="-2.5" x2="3.5" y2="-3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.5" x2="-4.5" y2="2.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-2.5" x2="-4.5" y2="-2.5" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="2.5" x2="-3.5" y2="3" width="0.127" layer="21"/>
-<wire x1="-3.5" y1="-2.5" x2="-3.5" y2="-3" width="0.127" layer="21"/>
-<text x="-4.318" y="3.429" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.191" y="-4.826" size="1.27" layer="25" ratio="10">&gt;VALUE</text>
-</package>
 </packages>
 <symbols>
-<symbol name="MS-611A">
-<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
-<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
-<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
-<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
-<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="3" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
-</symbol>
 <symbol name="RAHMEN_A4_8Z-19S">
 <wire x1="25.4" y1="10.922" x2="25.4" y2="0" width="0.1524" layer="94"/>
 <wire x1="38.1" y1="10.922" x2="38.1" y2="0" width="0.1524" layer="94"/>
@@ -21447,38 +21360,6 @@ Source: Projects Unlimited Inc. Microphone_TOM-1545P-R_40092-1.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MS-611A" prefix="S">
-<description>610-series mini-sized toggle switch made for low current (0.3A, 125V, AC) PC board use. Switching ON-ON. Featuring standard 2.54 mm pinpitch, 0.75 mm pinwidth, 6 mm width, 9 mm length and 23 mm height.</description>
-<gates>
-<gate name="G$1" symbol="MS-611A" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MS-611A">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="LENGTH" value="9mm"/>
-<attribute name="PINPITCH" value="2.54mm"/>
-<attribute name="WIDTH" value="6mm" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-H" package="MS-611A-H">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="RAHMEN_A4_8Z-19S" prefix="RAHMEN">
 <description>&lt;b&gt;Zeichnungsrahmen DIN A4&lt;/b&gt;&lt;p&gt;
  8 Zeilen, 19 Spalten&lt;br&gt;
@@ -22648,6 +22529,27 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pad name="4" x="2.54" y="9.525" drill="1.5"/>
 <pad name="5" x="4.445" y="12.7" drill="1.5"/>
 </package>
+<package name="SPDT">
+<pad name="1" x="-2.54" y="0" drill="0.6" shape="long" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.6" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="0.6" shape="long" rot="R90"/>
+<wire x1="-4.445" y1="2.032" x2="4.445" y2="2.032" width="0.127" layer="21"/>
+<wire x1="4.445" y1="2.032" x2="4.445" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="4.445" y1="-2.032" x2="-4.445" y2="-2.032" width="0.127" layer="21"/>
+<wire x1="-4.445" y1="-2.032" x2="-4.445" y2="2.032" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="2.032" y2="1.27" width="0.127" layer="21"/>
+<wire x1="2.032" y1="1.27" x2="2.032" y2="1.143" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="1.27" x2="-2.032" y2="1.143" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.27" x2="2.032" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="2.032" y1="-1.27" x2="2.032" y2="-1.143" width="0.127" layer="21"/>
+<wire x1="-2.032" y1="-1.27" x2="-2.032" y2="-1.143" width="0.127" layer="21"/>
+<wire x1="0.762" y1="1.016" x2="0.762" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-1.016" x2="1.778" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="1.778" y1="-1.016" x2="1.778" y2="1.016" width="0.127" layer="21"/>
+<wire x1="1.778" y1="1.016" x2="0.762" y2="1.016" width="0.127" layer="21"/>
+<text x="-3.81" y="2.54" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="SHB10R">
@@ -22873,6 +22775,27 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="15.24" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
 <text x="0" y="-2.54" size="1.778" layer="97" align="center-left">&gt;VALUE</text>
 </symbol>
+<symbol name="SPDT">
+<wire x1="-3.81" y1="1.905" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-3.81" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-0.762" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.254" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.175" x2="2.54" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.905" x2="0.635" y2="3.175" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="3.175" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="1.905" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.762" y1="0" x2="-0.254" y2="-0.762" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-0.762" x2="0.254" y2="0" width="0.1524" layer="94"/>
+<text x="-6.35" y="-1.905" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="-3.81" y="3.175" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="2" x="2.54" y="-5.08" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="3" x="5.08" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+<pin name="1" x="0" y="5.08" visible="pad" length="short" direction="pas" rot="R270"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SHB10R" prefix="DIS" uservalue="yes">
@@ -22930,6 +22853,23 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="L" pad="2"/>
 <connect gate="G$1" pin="R" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPDT">
+<gates>
+<gate name="G$1" symbol="SPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SPDT">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -23219,7 +23159,7 @@ Source: DCJ0202.pdf</description>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="V+" device=""/>
 <part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="S1" library="1_Robo-Lib" deviceset="MS-611A" device=""/>
+<part name="S1" library="Jakobs_LBR" deviceset="SPDT" device=""/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0207/7" package3d_urn="urn:adsk.eagle:package:23493/1" value="10k"/>
 <part name="TP3" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="PAD1-20" package3d_urn="urn:adsk.eagle:package:27950/1"/>
 <part name="RAHMEN1" library="1_Robo-Lib" deviceset="RAHMEN_A4_8Z-19S" device=""/>
