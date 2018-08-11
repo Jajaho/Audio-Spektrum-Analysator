@@ -3528,16 +3528,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="-3.81" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="2,5MM-AUX_JACK">
-<pad name="1" x="-2.286" y="2.54" drill="1.1"/>
-<pad name="2" x="0.762" y="2.54" drill="1.1"/>
-<pad name="3" x="4.699" y="2.54" drill="1.1"/>
-<pad name="4" x="5.715" y="-1.651" drill="1.1"/>
+<pad name="1" x="-2.286" y="2.54" drill="1.2"/>
+<pad name="2" x="0.762" y="2.54" drill="1.2"/>
+<pad name="3" x="4.699" y="2.54" drill="1.2"/>
+<pad name="4" x="5.715" y="-1.651" drill="1.2"/>
 <wire x1="6.604" y1="-2.667" x2="-5.461" y2="-2.667" width="0.127" layer="21"/>
 <wire x1="-5.461" y1="-2.667" x2="-5.461" y2="-2.159" width="0.127" layer="21"/>
 <wire x1="-5.461" y1="-2.159" x2="-5.461" y2="2.921" width="0.127" layer="21"/>
 <wire x1="-5.461" y1="2.921" x2="-5.461" y2="3.429" width="0.127" layer="21"/>
-<wire x1="-5.461" y1="3.429" x2="6.604" y2="3.429" width="0.127" layer="21"/>
-<wire x1="6.604" y1="3.429" x2="6.604" y2="-2.667" width="0.127" layer="21"/>
+<wire x1="-5.461" y1="3.429" x2="-2.921" y2="3.429" width="0.127" layer="21"/>
 <wire x1="-5.461" y1="2.921" x2="-7.493" y2="2.921" width="0.127" layer="21"/>
 <wire x1="-7.493" y1="2.921" x2="-7.493" y2="-2.159" width="0.127" layer="21"/>
 <wire x1="-7.493" y1="-2.159" x2="-5.461" y2="-2.159" width="0.127" layer="21"/>
@@ -3555,6 +3554,15 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="2.667" y1="2.159" x2="4.699" y2="2.159" width="0.127" layer="51"/>
 <text x="-5.08" y="3.81" size="1.27" layer="25">&gt;NAME</text>
 <text x="-5.08" y="-4.318" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-2.921" y1="3.429" x2="-1.651" y2="3.429" width="0.127" layer="51"/>
+<wire x1="-1.651" y1="3.429" x2="0.127" y2="3.429" width="0.127" layer="21"/>
+<wire x1="0.127" y1="3.429" x2="1.397" y2="3.429" width="0.127" layer="51"/>
+<wire x1="1.397" y1="3.429" x2="4.064" y2="3.429" width="0.127" layer="21"/>
+<wire x1="4.064" y1="3.429" x2="5.334" y2="3.429" width="0.127" layer="51"/>
+<wire x1="5.334" y1="3.429" x2="6.604" y2="3.429" width="0.127" layer="21"/>
+<wire x1="6.604" y1="3.429" x2="6.604" y2="-1.016" width="0.127" layer="21"/>
+<wire x1="6.604" y1="-1.016" x2="6.604" y2="-2.286" width="0.127" layer="51"/>
+<wire x1="6.604" y1="-2.286" x2="6.604" y2="-2.667" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
